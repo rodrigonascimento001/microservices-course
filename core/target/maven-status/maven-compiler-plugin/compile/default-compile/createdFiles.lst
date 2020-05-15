@@ -1,0 +1,6 @@
+com\microservices\core\Course$CourseBuilder.class
+com\microservices\core\model\Course.class
+com\microservices\core\Course.class
+com\microservices\core\model\Course$CourseBuilder.class
+com\microservices\core\repository\CourseRepository.class
+com\microservices\core\AbstractEntity.class
