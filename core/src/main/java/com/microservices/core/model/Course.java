@@ -13,6 +13,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Course implements AbstractEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
