@@ -25,8 +25,8 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="ec21957e-3514-42e2-bf93-c3ba943db424">
-        <schema name="devdojo" object-types="column, constraint, function, index, dataset trigger, procedure, table, view" />
-        <schema name="mysql" object-types="function, table" />
+        <schema name="devdojo" object-types="function, view, procedure, table, column" />
+        <schema name="mysql" object-types="table" />
       </connection>
     </loaded-nodes>
   </component>
@@ -42,7 +42,8 @@ values (
     'mayra')
 ;
 
-select * from application_user;]]></console>
+
+create database devdojo;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
