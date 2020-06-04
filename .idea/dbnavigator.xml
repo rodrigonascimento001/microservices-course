@@ -25,14 +25,13 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="ec21957e-3514-42e2-bf93-c3ba943db424">
-        <schema name="devdojo" object-types="function, view, procedure, table, column" />
-        <schema name="mysql" object-types="table" />
+        <schema name="devdojo" object-types="function, procedure, constraint, dataset trigger, view, table, index, column" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="ec21957e-3514-42e2-bf93-c3ba943db424">
-      <console name="Connection" type="STANDARD" schema="devdojo" session="Main"><![CDATA[insert into application_user ( 
+      <console name="Connection" type="STANDARD" schema="devdojo" session="Main">insert into application_user ( 
     `password`,
     role,
     username)
@@ -43,7 +42,9 @@ values (
 ;
 
 
-create database devdojo;]]></console>
+create database devdojo;
+
+select * from application_user;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
